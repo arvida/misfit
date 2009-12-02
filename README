@@ -1,0 +1,14 @@
+
+ ****      ****
+ *****    *****            ************* ************* 
+ *****    ***** ***    ****   *****    ***  ******  
+ ******  ****** ****  *******  ***     ****  **** 
+ ************** **** ****   ** ******* ***   *** 
+ *** ****** *** ****  *****    ******  ***   *** 
+ ***  ****  ***  ***     ****  ***     ****  *** 
+ ***  ****  ***  *** ***   *** ***     ****  *** 
+ * *   **    **  **    ******  ***     ***   ** 
+              *                *       ** 
+
+
+A simple tool for importing and maintaining Git repositories in a SVN project folder structure. It came about because we are running a few RubyOnRails projects under SVN that makes use of rails plugins that are version controlled with Git.
