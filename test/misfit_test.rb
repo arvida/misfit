@@ -8,7 +8,7 @@ class MisfitTest < Test::Unit::TestCase
     setup do
       @misfit = Misfit.new
       @repository_path = File.join(project_path,'tmp','test')
-      `mkdir #{@repository_path}`
+      `mkdir -p #{@repository_path}`
       `echo "Test text file 1" > #{File.join(@repository_path,'one.txt')}`
       `echo "Test text file 2" > #{File.join(@repository_path,'two.txt')}`
       `cd #{@repository_path} && git init && git add . && git commit -a -m "Init commit"`
