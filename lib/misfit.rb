@@ -66,7 +66,7 @@ protected
   end
   
   def update_repository(repository_url, destination)
-    tmp_dest = destination+'_tmp'
+    tmp_dest = File.dirname(destination)+'_tmp'
     `git clone #{repository_url} #{tmp_dest}`
     if $?.to_i == 0
       sync_directories(destination, tmp_dest)
